@@ -5,16 +5,19 @@ function answer(odpoved: number) {
     radio.sendValue("answer", odpoved)
     if (input.buttonIsPressed(Button.A)) {
         answer(65)
+        RadioPacketProperty.SerialNumber
         start = false
     }
     
     if (input.buttonIsPressed(Button.B)) {
         answer(66)
+        RadioPacketProperty.SerialNumber
         start = false
     }
     
     if (input.pinIsPressed(TouchPin.P0)) {
         answer(67)
+        RadioPacketProperty.SerialNumber
         start = false
     }
     
