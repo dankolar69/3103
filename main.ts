@@ -3,7 +3,7 @@ radio.setTransmitPower(7)
 radio.setTransmitSerialNumber(true)
 control.deviceSerialNumber()
 let start = false
-// pokud je zahájeno hlasování a stisknete např. tlačítko A microbit ukáže string "A", pro potvrzení musíte zmáčknout tlačítko ještě jednou
+// pokud je zahájeno hlasování a stisknete např. tlačítko A microbit ukáže string "A", v tuto chvíli můžete ještě změnit hlas, pro potvrzení musíte zmáčknout tlačítko ještě jednou
 // pokud přijme number 3, server zaznamenal hlas
 // stisknutím tlačítka A hlasuji pro A
 // stisknutím tlačítka B hlasuji pro B
