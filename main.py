@@ -4,7 +4,7 @@ radio.set_transmit_serial_number(True)
 control.device_serial_number()
 start = False
 
-#pokud je zahájeno hlasování a stisknete např. tlačítko A microbit ukáže string "A", v tuto chvíli můžete ještě změnit hlas, pro potvrzení musíte zmáčknout tlačítko ještě jednou
+#pokud je zahájeno hlasování a stisknete např. tlačítko A microbit ukáže string "A", v tuto chvíli můžete ještě změnit hlas, pro potvrzení musíte zmáčknout tlačítko ještě jednou,bez změny hlasu to fungovalo líp:(
 #pokud přijme number 3, server zaznamenal hlas
 #stisknutím tlačítka A hlasuji pro A
 #stisknutím tlačítka B hlasuji pro B
